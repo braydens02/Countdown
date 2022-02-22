@@ -5,8 +5,8 @@
 # @file    Makefile
 # @version 1.0
 #
-# @author @todo yourName <@todo yourMail@hawaii.edu>
-# @date   @todo dd_mmm_yyyy
+# @author Brayden Suzuki <braydens@hawaii.edu>
+# @date   Feb 21 2022
 #
 # @see     https://www.gnu.org/software/make/manual/make.html
 ###############################################################################
@@ -19,7 +19,6 @@ all:  $(TARGET)
 
 CC     = gcc
 CFLAGS = -Wall -Wextra $(DEBUG_FLAGS)
-
 
 debug: DEBUG_FLAGS = -g -DDEBUG
 debug: clean $(TARGET)
